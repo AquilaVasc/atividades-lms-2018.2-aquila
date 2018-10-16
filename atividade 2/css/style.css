@@ -1,4 +1,30 @@
 h1{
     color: aqua;
-    background-color: bisque;
+    background-color: brown;
+}
+
+.minha-classe{
+    color: brown;
+}
+
+article h2{
+    font-size: 32px;
+}
+
+#enies h2::before{
+    content:"1 ";
+    font-size: 64px;
+    color: blue;
+}
+
+#marineford h2:before{
+    content:"2 ";
+    font-size: 64px;
+    color:blue;
+}
+
+#dressrosa h2:before{
+    content:"3 ";
+    font-size: 64px;
+    color: blue;
 }
