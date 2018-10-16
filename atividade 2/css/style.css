@@ -28,3 +28,8 @@ article h2{
     font-size: 64px;
     color: blue;
 }
+
+body{
+    background: url(../img/gradient_bg.png);
+    background-size: 17px 100%;
+}
