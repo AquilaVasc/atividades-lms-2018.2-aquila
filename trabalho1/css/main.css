@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav > li{
+    display: inline-block;
+    position: relative;
+}
+
+
+
+.inisde-menu{
+    position:absolute;
+    display: none;
+    list-style-type: none;
+    height: 100%;
+}
+
+.main-nav li:hover .inisde-menu{
+    display: block;
+    transition: height 1000ms;
+}
