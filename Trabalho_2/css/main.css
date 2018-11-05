@@ -15,7 +15,24 @@
     float: right;
     width: 70%;
     height: 100vh;
-    background: yellow;
+    display: flex;
+    flex-direction: column;
+    background: #dcf8c6;
+}
+
+.message-body{
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-self: flex-end;
+    
+}
+
+.single-message{
+    display: inline-block;
+    background: white;
+    margin: 2px;
+    border-radius: 3px;
 }
 
 .logo{
@@ -26,14 +43,18 @@
     float: right;
 }
 
-.header, .current-message{
-    background: #eeeeee;
+der, .current-message{
+    flex-direction: column;
     height: 59px;
+    background: gray;
+    box-sizing: border-box;
 }
 
 .header{
+    height: 59px;
     border-right: 1px lightgray solid;
     padding: 10px 4px;
+    background: gray;
     box-sizing: border-box;
 }
 
@@ -58,6 +79,7 @@
     display: flex;
     flex-direction: row;
     height: 72px;
+    cursor: pointer;
 }
 
 .item-information{
@@ -69,4 +91,8 @@
 
 .generic-icon img{
     height: 100%;
+}
+
+.current-message{
+    display: flex;
 }
