@@ -1,0 +1,72 @@
+.container{
+    width: 900px;
+    margin: auto;
+    background: pink;
+}
+
+.navigation{
+    width: 30%;
+    height: 100vh;
+    background: white;
+    float: left;
+}
+
+.messages{
+    float: right;
+    width: 70%;
+    height: 100vh;
+    background: yellow;
+}
+
+.logo{
+    float: left;
+}
+
+.login{
+    float: right;
+}
+
+.header, .current-message{
+    background: #eeeeee;
+    height: 59px;
+}
+
+.header{
+    border-right: 1px lightgray solid;
+    padding: 10px 4px;
+    box-sizing: border-box;
+}
+
+.group-name{
+    clear: both;
+}
+
+.profile-picture{
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+}
+
+.generic-icon{
+    height: 49px;
+}
+
+.item-list{
+    width: 100%;
+    background:white;
+    border-bottom: 1px lightgray solid;
+    display: flex;
+    flex-direction: row;
+    height: 72px;
+}
+
+.item-information{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.generic-icon img{
+    height: 100%;
+}
