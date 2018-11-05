@@ -43,10 +43,10 @@
     float: right;
 }
 
-der, .current-message{
+.header, .current-message{
     flex-direction: column;
     height: 59px;
-    background: gray;
+    background: #eeeeee;
     box-sizing: border-box;
 }
 
@@ -54,7 +54,6 @@ der, .current-message{
     height: 59px;
     border-right: 1px lightgray solid;
     padding: 10px 4px;
-    background: gray;
     box-sizing: border-box;
 }
 
@@ -95,4 +94,5 @@ der, .current-message{
 
 .current-message{
     display: flex;
+    flex-direction: row;
 }
