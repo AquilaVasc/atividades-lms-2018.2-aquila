@@ -1,3 +1,7 @@
+body{
+    background: url("../img/whatsapp-wallpaper.png")
+}
+
 .container{
     width: 900px;
     margin: auto;
@@ -17,7 +21,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: #dcf8c6;
+    background: url("../img/message-background.png");
 }
 
 .message-body{
@@ -32,7 +36,38 @@
     display: inline-block;
     background: white;
     margin: 2px;
+    padding: 4px;
     border-radius: 3px;
+    box-shadow: 1px 1px 10px 1px rgba(240, 250, 252, 0.7);
+    margin-right: 8px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: row;
+}
+
+.message-input{
+    border:none;
+    flex-grow: 1;
+    margin: 8px;
+    border: 8px solid rgb(255, 235, 255);
+    border-radius: 12px;
+}
+
+.inputs button{
+    align-self: center;
+    margin-right: 8px;
+}
+
+button{
+    background-color: #4CFF9F; /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 .logo{
@@ -40,7 +75,13 @@
 }
 
 .login{
+    display: flex;
+    flex-direction: column;
     float: right;
+}
+
+.login button{
+    margin-bottom: 3px;
 }
 
 .header, .current-message{
@@ -55,10 +96,12 @@
     border-right: 1px lightgray solid;
     padding: 10px 4px;
     box-sizing: border-box;
+    position:relative;
 }
 
 .group-name{
-    clear: both;
+    position: absolute;
+    bottom: 4px;
 }
 
 .profile-picture{
